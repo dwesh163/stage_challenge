@@ -23,7 +23,7 @@ git clone https://github.com/lvenries/stage_challenge.
 ### 2. Add host
 
 ```bash
-sudo sh -c 'echo "127.0.0.1 stage-challenge.epfl.ch" >> /etc/hosts'
+sudo sh -c 'echo "127.0.0.1 stage-challenge.fsd.epfl.ch" >> /etc/hosts'
 ```
 
 ### 3. Build the docker image
@@ -40,7 +40,7 @@ docker run -d -p 80:80 -p 2222:22 --name stage-challenge stage-challenge --resta
 
 ### 5. Launch the challenge into your browser
 
-[http://stage-challenge.epfl.ch](http://stage-challenge.epfl.ch)
+[http://stage-challenge.fsd.epfl.ch](http://stage-challenge.fsd.epfl.ch)
 
 
 ## License
